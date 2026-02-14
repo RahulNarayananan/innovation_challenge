@@ -1,0 +1,45 @@
+# Data files (already zipped and uploaded separately)
+*.csv
+
+# Temp / scratch files
+Untitled document.pdf
+extract_templates.py
+
+# Generated outputs
+patient_profiles.pdf
+profile_data.txt
+
+# Template text extractions (temp files)
+_template_*.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Gemini agent
+.gemini/
+.agent/
